@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.8.22)  9 MAY 2019 03:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.8.22)  30 JUN 2019 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -282,7 +282,7 @@ Here is how much of TeX's memory you used:
  8315 multiletter control sequences out of 15000+600000
  42584 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,4n,22p,210b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,4n,22p,214b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dis
 t/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rmt
 t.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/share/texmf-d
@@ -292,7 +292,7 @@ are/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/typ
 e1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmro10.pfb
 ></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist
 /fonts/type1/public/lm/lmtt10.pfb>
-Output written on resume.pdf (1 page, 183375 bytes).
+Output written on resume.pdf (1 page, 184336 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
