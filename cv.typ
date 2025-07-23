@@ -62,7 +62,7 @@ Native Brazilian Portuguese
 *Bipp Global*, _Business Partner_, _Software Engineer_ #h(1fr) *Feb 2020 -- Dec 2020*
 - Worked on a mobile application for online food and job ordering and delivery platform.
 - Used the Flutter framework for most of the development.
-- Used TypeScript and Google Cloud Functions to run serverless code, and Firebase for stateless database.
+- Used TypeScript and Google Cloud Functions to run serverless code, and Firebase for NoSQL database.
 
 *Grupo Salutem*, _Software Engineer_ #h(1fr) *Jan 2019 -- Jan 2020*
 - Developed the CI/CD cycle (continuous integration and deployment) for a hospital management software using Python, Docker and GitHub Actions.
