@@ -44,58 +44,74 @@
 #cv_section(
   [Professional Experience],
   [
-  *Reddening Games*, São Paulo, Brazil #h(1fr) *Feb 2024 -- Present*
-  - Working on a computer video game to be released on the Steam store.
+  *Reddening Games*, _São Paulo, Brazil_ #h(1fr) *Feb 2024 -- Present* \
+  _Independent Developer_
+  - Currently working on a PC video game to be released on the Steam store: a fast-paced, pixel-art styled, story-driven top-down shooter.
   - I do everything: coding, art and music creation, level design, SFX, VFX, marketing, community management etc.
-  - Using the Rust programming language and the Bevy Engine.
+  - Built many tools, such as level editors, sprite animation and model editors, to accelerate the development of the game.
 
-  *Jusbrasil*, _Senior Software Engineer_ #h(1fr) *Jan 2021 -- Jan 2024*
-  - Worked on an Entity Resolution problem to connect lawsuit parties to their respective government-issued IDs and many other identifying information.
-  - Developed a solution that scaled well for 12 million lawsuit parties, which involved adapting many internal projects as well.
-  - Used Python and Scala for coding, and Apache Spark, Airflow, Kafka and Kubernetes for offline and online solutions.
-  - Used Google Cloud Dataproc for big data processing with Spark.
-  - Used BigQuery and Grafana for dashboards.
+  *Jusbrasil*, _São Paulo, Brazil_ #h(1fr) *Jan 2021 -- Jan 2024* \
+  _Senior Software Engineer_
+  - Built many entity resolvers with the team that, together, achieved 12 million linked records with a resolution score greater than 0.96 (max 1.0) for 80% of the total records.
+  - Researched and helped the team build a pipeline that solved and provided resolved entities both online and offline, and integrated it on in-house systems to enrich the data of many systems, which leveraged various teams to achieve better results in the search and recommendation systems.
+  - Worked on tons of in-house systems modifications and data normalization that greatly reduced the time developers spent working on per-user requests of removing wrong information, which went from a daily blocker to almost zero requests per week.
+  - Led software engineering interns on such tasks that made them become better contributors to the team and the company.
+  - Made an improvement of 6x reduction in time spent running automated tests on the entity resolution pipeline's CI/CD, as well as keeping such time close to the same during the development lifecycle, as opposed to growing linearly, which allowed  for a faster development cycle.
 
-  *Bipp Global*, _Business Partner_, _Software Engineer_ #h(1fr) *Feb 2020 -- Dec 2020*
-  - Worked on a mobile application for online food and job ordering and delivery platform.
-  - Used the Flutter framework for most of the development.
-  - Used TypeScript and Google Cloud Functions to run serverless code, and Firebase for NoSQL database.
+  _Software Engineer_
+  - Researched and worked on an entity resolution problem that helped the company understand which direction to go on creating a system both for internal usage and profit from a valuable user-facing product.
+  - Solved a hard entity resolution token-blocking problem which allowed the company to reach results that it couldn't before.
 
-  *Grupo Salutem*, _Software Engineer_ #h(1fr) *Jan 2019 -- Jan 2020*
-  - Developed a clinical appointment-booking mobile application for the AME clinics using the Flutter framework.
-  - Worked on appointment scheduling and integration with the mobile app on the hospital management software using AngularJS, Rust, and Java with Spring Boot.
-  - Developed the CI/CD cycle (continuous integration and deployment) for a hospital management software using Python, Docker and GitHub Actions.
-  - Trained the development team to use Git commands and GitHub Workflow.
+  *Bipp Global*, _Rio de Janeiro, Brazil_ #h(1fr) *Feb 2020 -- Dec 2020* \
+  _Business Partner_, _Senior Software Engineer_
+  - Worked on tons of features, ranging from back-end services to UI/UX, for a food-delivery/service-contracting mobile application and platform.
+  - Designed and implemented business account creation, tagging, and specialized features for each kind of business category.
+  - Architectured and built a contact and calendar page that was integrated with the application's chat, which organized food orders and appointment booking.
+  - Designed and implemented a quick-message feature for business owners to use in the chat.
 
-  *Freelancing*, _Software Engineer_ #h(1fr) *Jun 2016 -- Jan 2019*
+  *Grupo Salutem*, _Araçatuba, Brazil_ #h(1fr) *Jan 2019 -- Jan 2020* \
+  _Software Engineering Intern_
+  - Developed a simple clinical appointment-booking mobile application for the AME clinics.
+  - Worked on appointment scheduling and integration with the mobile app on the hospital management software.
+  - Built the CI/CD cycle for a hospital management software.
+  - Trained the team to use Git commands and GitHub Workflow.
+
+  *Freelancing*, _Remote, Brazil_ #h(1fr) *Jun 2016 -- Jan 2019* \
+  _Software Developer_
   - Worked on many small projects consisting of process automation and data processing.
-  - Used mostly Python and C++, as well as cron for job scheduling.
 ])
 
 #cv_section(
   [Personal Projects],
   [
-  *sophia: A custom programming language and compiler* #h(1fr) #link("https://github.com/feroldi/sophia")[`github.com/feroldi/sophia`]
-  - Developing a compiler for my own programming language.
-  - Meant as a teaching project to show the facets of compiler engineering where I code live on Twitch.
+  #link("https://github.com/feroldi/atlas")[*Atlas*]
+  - Creating a compiler for the C programming language.
   - Used Rust for most of the development, and x86 Assembly for the low-level bits.
 
-  *cognita: A flashcard system mobile application* #h(1fr) #link("https://github.com/feroldi/cognita")[`github.com/feroldi/cognita`]
-  - A mobile application to optimize the learning process of any subject by using the principle of spaced repetition.
+  #link("https://github.com/feroldi/sophia")[*Sophia*]
+  - Another compiler, whereas this one compiles an own-designed programming language.
+  - Meant as a teaching project to show the facets of compiler engineering where I code live on Twitch.
+  - Also written in Rust and x86 assembly.
+
+  #link("https://github.com/feroldi/cognita")[*Cognita*]
+  - Made a mobile application that optimizes the learning process of any subject by using the principle of spaced repetition.
   - Implemented the Leitner system for the training sessions.
   - Used the Flutter framework, and the SQLite embedded database.
 
-  *An implementation of C++'s new memory resource API* #h(1fr) #link("https://github.com/feroldi/cxx17_memory_resource")[`github.com/feroldi/cxx17_memory_resource`]
-  - A work in progress implementation of the `<memory_resource>` header from C++17.
+  #link("https://github.com/feroldi/cxx17_memory_resource")[*Memory resource API for C++*]
+  - My implementation of the `<memory_resource>` header from C++17.
   - It has polymorphic memory allocation and monotonic buffers implementations.
 ])
 
 #cv_section(
   [Education],
   [
-  *Salesiano Auxilium Catholic University* Araçatuba, Brazil #h(1fr) *Feb 2015 -- Dec 2019* \
-  B.S., Computer Engineering \
-  GPA: 3.45/4.0
+  *Centro Universitário Católico Salesiano Auxilium* #h(1fr) *Feb 2015 -- Dec 2019* \
+  _Araçatuba, Brazil_ \
+  _Bachelor in Computer Engineering_ \
+  - GPA: 3.45/4.0
+  - Undergraduate Teaching Assistant for Compilers #h(1fr) *2018*
+  - Undergraduate Teaching Assistant for Programming Logic and Algorithms #h(1fr) *2015*
 ])
 
 #cv_section(
@@ -108,22 +124,12 @@
 #cv_section(
   [Technical Skills],
   [
-  C, C++, Rust, Python, Go, Java, C\#, Scala, TypeScript, x86_64 Assembly, Haskell, Dart \
+  C, C++, Rust, Python, Golang, Java, C\#, Scala, TypeScript, x86_64 Assembly, Dart \
   Bash, GNU/Linux, Git, Sysadmin \
-  Kubernetes, Docker, Kafka, Terraform, Grafana \
-  GitHub, GitHub Actions \
+  Automated Tests, Entity Resolution, Profiling, Compiler Engineering \
+  Kubernetes, Docker, Kafka \
   Firebase, PostgreSQL, SQLite, RESTful APIs \
-  Apache Spark, Apache Kafka, Hadoop, Redis, Airflow \
+  Apache Spark, Kafka, Hadoop, Redis, Airflow \
   Google Cloud Platform: Dataproc, BigQuery, Storage \
   Flutter, AngularJS, ReactJS, Spring Boot \
-  CMake, Ninja, and Cargo build systems \
-  Familiarity with the Clang and LLVM codebase \
-])
-
-#cv_section(
-  [Miscellaneous],
-  [
-  Top 10% on the C++ tag on Stack Overflow #h(1fr) *since Jan 2019* \
-  Undergraduate Teaching Assistant for Compilers #h(1fr) *2018* \
-  Undergraduate Teaching Assistant for Programming Logic and Algorithms #h(1fr) *2015* \
 ])
