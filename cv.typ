@@ -57,7 +57,7 @@
 
   _Software Engineer_ #h(1fr) *Jan 2021 -- Dez 2022*
   - Researched and worked on an entity resolution problem that helped the company understand which direction to go on creating a system both for internal usage and profit from a valuable user-facing product.
-  - Solved a hard entity resolution token-blocking problem which allowed the company to from zero to 60% solved entities of the total records.
+  - Solved a hard entity resolution token-blocking problem which allowed the company to go from zero to 60% solved entities of the total records.
 
   *Bipp Global*, _Rio de Janeiro, Brazil_ \
   _Business Partner_, _Senior Software Engineer_ #h(1fr) *Feb 2020 -- Dec 2020*
