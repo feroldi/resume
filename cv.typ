@@ -13,7 +13,7 @@
 
 #set par(justify: true)
 
-#set list(indent: 1em)
+#set list(indent: 1em, spacing: 1em)
 
 #let chiline() = {
     v(-5pt);
@@ -28,7 +28,7 @@
     smallcaps(heading),
     text,
   )
-  linebreak()
+  v(5pt);
 }
 
 = Mário Feroldi Filho
@@ -41,74 +41,60 @@
   E-mail: mferoldif\@gmail.com #h(1fr) #link("https://linkedin.com/in/mferoldif")[`linkedin.com/in/mferoldif`] \
 ])
 
+#v(5pt);
+
 #cv_section(
   [Professional Experience],
   [
-  *Reddening Games*, _São Paulo, Brazil_ #h(1fr) *Feb 2024 -- Present* \
-  _Independent Developer_
-  - Currently working on a PC video game to be released on the Steam store: a fast-paced, pixel-art styled, story-driven top-down shooter.
-  - I do everything: coding, art and music creation, level design, SFX, VFX, marketing, community management etc.
-  - Built many tools, such as level editors, sprite animation and model editors, to accelerate the development of the game.
+  *Reddening Games*, _São Paulo, Brazil_ \
+  _Independent Developer_ #h(1fr) *Feb 2024 -- Present*
+  - Currently working on a PC video game to be released on the Steam store.
 
-  *Jusbrasil*, _São Paulo, Brazil_ #h(1fr) *Jan 2021 -- Jan 2024* \
-  _Senior Software Engineer_
-  - Built many entity resolvers with the team that, together, achieved 12 million linked records with a resolution score greater than 0.96 (max 1.0) for 80% of the total records.
-  - Researched and helped the team build a pipeline that solved and provided resolved entities both online and offline, and integrated it on in-house systems to enrich the data of many systems, which leveraged various teams to achieve better results in the search and recommendation systems.
-  - Worked on tons of in-house systems modifications and data normalization that greatly reduced the time developers spent working on per-user requests of removing wrong information, which went from a daily blocker to almost zero requests per week.
-  - Led software engineering interns on such tasks that made them become better contributors to the team and the company.
-  - Made an improvement of 6x reduction in time spent running automated tests on the entity resolution pipeline's CI/CD, as well as keeping such time close to the same during the development lifecycle, as opposed to growing linearly, which allowed  for a faster development cycle.
+  *Jusbrasil*, _São Paulo, Brazil_ \
+  _Senior Software Engineer_ #h(1fr) *Jan 2023 -- Jan 2024*
+  - Researched and built a pipeline for entity resolution with the team that achieved 12 million linked records with a resolution score greater than 0.96 (max 1.0) for 80% of the total records.
+  - Corrected 10 million bad records, eliminated weekly on-call fixes, greatly reduced manual support effort to a near zero, and had potential improvements on search and recommentation pipelines.
 
-  _Software Engineer_
+  _Software Engineer_ #h(1fr) *Jan 2021 -- Dez 2022*
   - Researched and worked on an entity resolution problem that helped the company understand which direction to go on creating a system both for internal usage and profit from a valuable user-facing product.
-  - Solved a hard entity resolution token-blocking problem which allowed the company to reach results that it couldn't before.
+  - Solved a hard entity resolution token-blocking problem which allowed the company to from zero to 60% solved entities of the total records.
 
-  *Bipp Global*, _Rio de Janeiro, Brazil_ #h(1fr) *Feb 2020 -- Dec 2020* \
-  _Business Partner_, _Senior Software Engineer_
+  *Bipp Global*, _Rio de Janeiro, Brazil_ \
+  _Business Partner_, _Senior Software Engineer_ #h(1fr) *Feb 2020 -- Dec 2020*
   - Worked on tons of features, ranging from back-end services to UI/UX, for a food-delivery/service-contracting mobile application and platform.
-  - Designed and implemented business account creation, tagging, and specialized features for each kind of business category.
-  - Architectured and built a contact and calendar page that was integrated with the application's chat, which organized food orders and appointment booking.
-  - Designed and implemented a quick-message feature for business owners to use in the chat.
 
-  *Grupo Salutem*, _Araçatuba, Brazil_ #h(1fr) *Jan 2019 -- Jan 2020* \
-  _Software Engineering Intern_
-  - Developed a simple clinical appointment-booking mobile application for the AME clinics.
-  - Worked on appointment scheduling and integration with the mobile app on the hospital management software.
-  - Built the CI/CD cycle for a hospital management software.
+  *Grupo Salutem*, _Araçatuba, Brazil_ \
+  _Software Engineering Intern_ #h(1fr) *Jan 2019 -- Jan 2020*
+  - Developed a clinical appointment-booking mobile application prototype for the AME clinics.
   - Trained the team to use Git commands and GitHub Workflow.
 
-  *Freelancing*, _Remote, Brazil_ #h(1fr) *Jun 2016 -- Jan 2019* \
-  _Software Developer_
+  *Freelancing*, _Remote, Brazil_ \
+  _Software Developer_ #h(1fr) *Jun 2016 -- Jan 2019*
   - Worked on many small projects consisting of process automation and data processing.
 ])
 
 #cv_section(
   [Personal Projects],
   [
-  #link("https://github.com/feroldi/atlas")[*Atlas*]
-  - Creating a compiler for the C programming language.
-  - Used Rust for most of the development, and x86 Assembly for the low-level bits.
+  *Fmtlib*
+  - Contributed work to the `fmt` library which made it to the C++ standard library.
 
-  #link("https://github.com/feroldi/sophia")[*Sophia*]
-  - Another compiler, whereas this one compiles an own-designed programming language.
+  *Sophia*
+  - A compiler for an own-designed programming language.
   - Meant as a teaching project to show the facets of compiler engineering where I code live on Twitch.
-  - Also written in Rust and x86 assembly.
+  - Written in Rust and x86 assembly.
 
-  #link("https://github.com/feroldi/cognita")[*Cognita*]
+  *Cognita*
   - Made a mobile application that optimizes the learning process of any subject by using the principle of spaced repetition.
-  - Implemented the Leitner system for the training sessions.
   - Used the Flutter framework, and the SQLite embedded database.
-
-  #link("https://github.com/feroldi/cxx17_memory_resource")[*Memory resource API for C++*]
-  - My implementation of the `<memory_resource>` header from C++17.
-  - It has polymorphic memory allocation and monotonic buffers implementations.
 ])
 
 #cv_section(
   [Education],
   [
-  *Centro Universitário Católico Salesiano Auxilium* #h(1fr) *Feb 2015 -- Dec 2019* \
+  *Centro Universitário Católico Salesiano Auxilium* \
   _Araçatuba, Brazil_ \
-  _Bachelor in Computer Engineering_ \
+  _Bachelor in Computer Engineering_ #h(1fr) *Feb 2015 -- Dec 2019* \
   - GPA: 3.45/4.0
   - Undergraduate Teaching Assistant for Compilers #h(1fr) *2018*
   - Undergraduate Teaching Assistant for Programming Logic and Algorithms #h(1fr) *2015*
