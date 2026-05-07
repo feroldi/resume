@@ -53,7 +53,7 @@
   *Jusbrasil*, _São Paulo, Brazil_ \
   _Senior Software Engineer_ #h(1fr) *Jan 2023 -- Jan 2024*
   - Researched and built a pipeline for entity resolution with the team that achieved 12 million linked records with a resolution score greater than 0.96 (max 1.0) for 80% of the total records.
-  - Corrected 10 million bad records, eliminated weekly on-call fixes, greatly reduced manual support effort to a near zero, and had potential improvements on search and recommentation pipelines.
+  - Corrected 10 million bad records, eliminated weekly on-call burden, greatly reduced manual support effort to a near zero, and had potential improvements on search and recommendation pipelines.
 
   _Software Engineer_ #h(1fr) *Jan 2021 -- Dez 2022*
   - Researched and worked on an entity resolution problem that helped the company understand which direction to go on creating a system both for internal usage and profit from a valuable user-facing product.
